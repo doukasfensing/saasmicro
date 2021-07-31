@@ -43,7 +43,7 @@ const QuestionForm = () => {
           .max(30000, 'Πολύ μεγάλη ερώτηση.'),
         tags: Yup.array()
           .required('Γράψτε το tag και μετά πατήστε enter.')
-          .max(100, 'Παρακαλούμε όχι παραπάνω από 100 tags,')
+          .max(100, 'Γράψτε το tag και μετά πατήστε enter.')
           .of(Yup.string().max(15, 'Τεράστιο το tag... '))
       })}
     >

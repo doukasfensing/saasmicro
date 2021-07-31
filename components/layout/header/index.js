@@ -68,7 +68,7 @@ const Header = ({ className, ...props }) => {
           <>
             <Button
               className={styles.auth}
-              secondary
+              primary
               onClick={() => handleComponentVisible(true, 'login')}
             >
               Σύνδεση

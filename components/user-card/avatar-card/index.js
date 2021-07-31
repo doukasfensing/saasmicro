@@ -47,12 +47,8 @@ const UserAvatar = ({ username }) => {
         ) : (
           <div className={styles.created}>
             <p>
-              Δημιουργήθηκε πριν από:{' '}
-              <span>
-                {formatDistanceToNowStrict(new Date(userInfo.created), {
-                  addSuffix: false
-                })}
-              </span>
+              
+              
             </p>
           </div>
         )}

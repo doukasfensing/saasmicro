@@ -5,7 +5,7 @@ import styles from './main.module.css'
 
 const Main = ({ border = true, children }) => {
   return (
-    <div className={cn(styles.main, border && styles.border)}>{children}</div>
+    <div className={cn()}>{children}</div>
   )
 }
 

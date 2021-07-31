@@ -25,12 +25,7 @@ const Navigation = () => {
         <span>Tags</span>
       </NavItem>
 
-      <NavItem
-        href="/users"
-        selected={router.pathname.split('/')[1] == 'users'}
-      >
-        <span>Χρήστες</span>
-      </NavItem>
+     
     </nav>
   )
 }

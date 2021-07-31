@@ -8,12 +8,8 @@ const PostList = ({ postType, setPostType, children }) => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <h2>Ερωτήσεις</h2>
-        <ButtonGroup
-          buttons={['Ερωτήσεις Χρήστη']}
-          selected={postType}
-          setSelected={setPostType}
-        />
+        <h2>Oι ερωτήσεις μου</h2>
+        
       </div>
       {children}
     </div>
